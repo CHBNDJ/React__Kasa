@@ -1,0 +1,270 @@
+.main {
+    padding-bottom: 30px;
+}
+
+.title--container {
+    padding: 10px;
+    margin-left: 91px;
+}
+
+.title {
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 51.34px;
+    margin: 15px 0 0 0;
+}
+
+.location {
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25.67px;
+    margin: 0;
+}
+
+.tags--container {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.tags {
+    font-size: 14px;
+    margin-right: 10px;
+    border-radius: 11px;
+    padding: 5px 20px;
+    background-color: #FF6060; 
+    color: white;
+}
+
+.host {
+    position: absolute;
+    top: 586px;
+    right: 175px;
+}
+
+.picture {
+    top: 587px;
+    left: 1265px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-left: 33px;
+}
+
+.name {
+    top: 606px;
+    left: 1170px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25.67px;
+    color: #FF6060;
+}
+
+.star--container {
+    position: absolute;
+    top: 690px;
+    left: 1192px;
+}
+
+.star--solid {
+    color:#FF6060;
+    margin-right: 10px;
+    width: 24.75px;
+    height: 24px;
+}
+
+.star--regular {
+    color: rgba(227, 227, 227, 1);
+    margin-right: 10px;
+    width: 24.75px;
+    height: 24px;
+}
+
+.rental--rental {
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   margin: 30px 0 50px 100px;
+   gap: 13px;
+}
+
+.rental--form {
+    width: 565px;
+    height: 52px;
+    border-radius: 5px;
+    background-color: #FF6060;
+    position: relative;
+}
+
+.rental--title {
+    color: white;
+    margin-left: 10px;
+    padding-top: 14px;
+    font-weight: 500;
+}
+
+.rental--content {
+    background-color:  rgba(246, 246, 246, 1);
+    width: 565px;
+    min-height: 189px;
+    padding: 10px;
+    border-radius: 10px 10px 5px 5px;
+}
+
+.rental--text {
+    color: #FF6060;
+    margin: 10px 0px 10px 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.rental--list {
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.rental--icon {
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 13px;
+    right: 23px;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767.98px) {
+
+    .rental--container {
+        margin-left: 20px;
+        max-width: 767.98px;
+    }
+
+    .title--container {
+        padding: 0px;
+        margin-left: 0;
+    }
+
+    .title {
+        font-size: 18px;
+        line-height: 100%;
+        margin: 10px 0 5px 2px;
+        width: 335px;
+        height: 40px;
+        
+    }
+    
+    .location {
+        font-size: 14px;
+        line-height: 142.6%;
+        margin-left: 2px;
+        width: 323px;
+        height: 22px;
+    }
+
+    .tags--container {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    
+    .tags {
+        font-size: 10px;
+        border-radius: 8px;
+        padding: 5px 13px;
+    }
+
+    .host {
+        position: absolute;
+        top: 430px;
+        right: 64px;
+    }
+
+    .picture {
+        top: 35px;
+        left: 90px;
+        right: 0;
+        width: 45px;
+        height: 45px;
+        margin-left: 0;
+        position: relative;
+    }
+    
+    .name {
+        top: 2px;
+        left: 0px;
+        font-size: 13px;
+        line-height: 142.6%;
+        word-wrap: break-word;
+        width: 93px;
+        height: 33px;
+        right: 0;
+        position: relative;
+    }
+    
+    .star--container {
+        right: 0;
+        width: 120px;
+        height: 18px;
+        position: absolute;
+        top: 430px;
+        left: 23px;
+        margin-top: 50px;
+    }
+    
+    .star--solid {
+        margin-right: 6px;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .star--regular {
+        margin-right: 6px;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .rental--rental {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 60px 0px 0px 0px; 
+        gap: 0;
+    }
+    
+    .rental--form {
+        width: 95%;
+        height: 45px;
+    }
+
+    .rental--title {
+        margin-left: 12px;
+        padding-top: 10px;
+    }
+    
+    .rental--content {
+        width: 335px;
+        min-height: 150px;
+        padding: 10px;
+        border-radius: 10px 10px 5px 5px;
+    }
+    
+    .rental--text {
+        font-size: 16px;
+    }
+    
+    .rental--list {
+        margin-left: 10px;
+        margin-bottom: 3px;
+    }
+    
+    .rental--icon {
+        width: 32px;
+        height: 32px;
+        top: 9px;
+        right: 12px;
+    }
+
+
+}
+

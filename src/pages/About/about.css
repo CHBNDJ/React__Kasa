@@ -1,0 +1,23 @@
+.banner--about {
+   width: 1240px;
+   height: 223px;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 43px;
+   object-fit: cover;
+   border-radius: 25px;
+   filter: brightness(70%);
+}
+
+@media screen and (max-width: 767.98px) {
+
+   .banner--about {
+      width: 335px;
+      height: 111px; 
+      margin-top: 10px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      object-fit: cover;
+  }
+}

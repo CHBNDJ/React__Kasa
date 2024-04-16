@@ -1,0 +1,71 @@
+.error--body {
+    text-align: center;
+    color: rgba(255, 96, 96, 1);
+}
+
+.error--number {
+    font-weight: 700;
+    font-size: 288px;
+    line-height: 410.69px;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.error--text {
+   font-size: 36px;
+   text-align: center;
+   font-weight: 500;
+   line-height: 142.6%;
+   margin-top: 100px;
+}
+
+.error-- {
+    text-decoration-color: rgba(255, 96, 96, 1);
+}
+
+.error--link {
+   font-size: 18px;
+   line-height: 142.6%;
+   color: rgba(255, 96, 96, 1);
+   margin: 140px 0 140px 0;
+}
+
+
+
+
+@media screen and (max-width: 767.98px) {
+    .error--body {
+        text-align: center;
+        height: 633.88px; /* Réglez la hauteur sur "auto" pour qu'elle s'adapte au contenu */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Affiche les éléments en colonne */
+    }
+
+    .error--number {
+        font-size: 96px;
+        line-height: 136.9px;
+        width: 100%;
+        margin-top: 70px; /* Ajoutez un espacement entre les éléments */
+    }    
+
+    .error--text {
+        font-size: 18px;
+        line-height: 25.67px;
+        width: 89%;
+        margin-bottom: 20px; /* Ajoutez un espacement entre les éléments */
+        word-wrap: break-word;
+        margin-top: 60px;
+    }
+
+    .error--link {
+        font-size: 18px; /* Ajustez la taille de la police au besoin */
+        line-height: 25.67px;
+        width: 100%;
+        margin: 100px 0; /* Ajoutez un espacement entre les éléments */
+    }
+}
+
+
+
+

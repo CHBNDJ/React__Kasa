@@ -1,0 +1,56 @@
+.header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0 80px;
+}
+
+.logo {
+    width: 122px;
+    height: 40px;
+}
+
+.header--link {
+    text-decoration: none;
+    color: #FF6060;
+    margin-left: auto;
+}
+
+.header--about {
+    text-decoration: none;
+    color: #FF6060;
+    margin-left: 35px;
+}
+
+@media screen and (max-width: 767.98px) {
+
+    .header {
+        padding: 15px;
+        margin: 0 0;
+    }
+
+    .header--link {
+        font-size: 12px;
+        width: 66px;
+        height: 17px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .header--about {
+        font-size: 12px;
+        width: 66px;
+        height: 17px;
+        margin-left: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .logo {
+        width: 145px;
+        height: 46.88px;
+    }
+
+}
+  
+

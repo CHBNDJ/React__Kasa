@@ -1,0 +1,38 @@
+.footer { 
+    background-color: rgba(0, 0, 0, 1);
+    width: 1490px;
+    text-align: center;
+    padding: 50px 20px 25px 20px;
+}
+
+.footer--img {
+    width: 122px;
+    height: 39.44px;
+}
+
+.footer--text {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34.22px;
+    margin: 40px 0 0 0;
+}
+
+@media screen and (max-width: 767.98px) {
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer--text {
+        font-size: 13px;
+        line-height: 142.6%; 
+        word-wrap: break-word;
+        width: 133.59px;
+        margin: 5% auto 8% ;
+    }
+    
+
+}
+
+
