@@ -8,27 +8,21 @@ import { faStar as solidStar } from '@fortawesome/free-solid-svg-icons';
 import Slides from '../../components/SlideShow/Slides';
 
 function Rental() {
-    // Récupérer l'ID à partir de l'URL
     const { id } = useParams();
 
-    // Filtrer les données pour obtenir les détails de l'image sélectionnée
     const selectedData = datasGallery.find((data) => data.id === id);
 
-    // Initialiser les états toggle pour la description et les équipements avec false
     const [toggleDescription, setToggleDescription] = useState(false);
     const [toggleEquipments, setToggleEquipments] = useState(false);
 
-    // Gérer le clic pour basculer l'état de toggle pour la description
     const handleDescriptionClick = () => {
         setToggleDescription(!toggleDescription);
     };
 
-    // Gérer le clic pour basculer l'état de toggle pour les équipements
     const handleEquipmentsClick = () => {
         setToggleEquipments(!toggleEquipments);
     };
 
-    // Convertir le rating en un nombre entier
     const ratingScale = parseInt(selectedData.rating);
 
     const order = [1, 2, 3, 4, 5];

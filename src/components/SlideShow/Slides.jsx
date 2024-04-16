@@ -13,7 +13,7 @@ function Slides() {
     const [pictures, setPictures] = useState([]);
 
     const sliderRef = useRef(null);
-    const [activeSlide, setActiveSlide] = useState(0); // Ajout du state pour l'index de la slide active
+    const [activeSlide, setActiveSlide] = useState(0);
 
     useEffect(() => {
         const selectedData = datasGallery.find((data) => data.id === id);
